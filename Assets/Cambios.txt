@@ -1,0 +1,18 @@
+Cambios para Jueves 24/03/2023
+
+Hechos 
+
+-Importar prefabs
+-Texturas para agua, pasto y carretera
+-Animación de movimiento para el agua
+-Modelo de personaje (preliminar con animación)
+-Limitación de movimiento del personaje (cuatro a la izquierda, cuatro a la derecha, tres en reversa)
+-Mejor enfoque de la cámara 
+	*Ya no se ven los limites del mapa
+	*Cambié el código de la cámara para moverse sólo en un eje
+-El personaje mira en sentido a la dirección a la que avanza
+
+
+Próximos
+
+-Generación de obstáculos en el pasto (árboles y vehículos)

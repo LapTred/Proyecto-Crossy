@@ -34,15 +34,8 @@ public class TerrainGenerator : MonoBehaviour
             {
                 GameObject terrain = Instantiate(terrainDatas[whichTerrain].terrain, currentPosition, Quaternion.identity, terrainHolder);
                 currentTerrains.Add(terrain);
-                if (!isStart)
-                {
-                    if (currentTerrains.Count > maxTerrainCount)
-                    {
-                        Destroy(currentTerrains[0]);
-                        currentTerrains.RemoveAt(0);
-                    }
-                }
-                currentPosition.x++;
+                                                       
+                
             }
         }        
     }

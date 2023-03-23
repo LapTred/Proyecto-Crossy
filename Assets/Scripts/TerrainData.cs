@@ -9,7 +9,4 @@ public class TerrainData : ScriptableObject
 {
     public GameObject terrain;
     public int maxInSuccesion;
-
-
-
 }
