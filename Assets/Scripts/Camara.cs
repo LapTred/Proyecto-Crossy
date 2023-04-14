@@ -11,12 +11,12 @@ public class Camara : MonoBehaviour
     {
         if (movimiento.lateral >= 2)
         {
-            vector = new Vector3(2, 0, movimiento.carril);
+            vector = new Vector3(1, 0, movimiento.carril);
             transform.position = Vector3.Lerp(transform.position, vector, velocidad * Time.deltaTime);
         }
         if(movimiento.lateral <= -2)
         {
-            vector = new Vector3(-2, 0, movimiento.carril);
+            vector = new Vector3(-1, 0, movimiento.carril);
             transform.position = Vector3.Lerp(transform.position, vector, velocidad * Time.deltaTime);
         }
         else

@@ -18,7 +18,7 @@ public class Movimiento : MonoBehaviour
 
     public float tiempo;
 
-    int posicionZ;
+    int posicionZ = 1;
 
     private void Start()
     {
@@ -60,8 +60,7 @@ public class Movimiento : MonoBehaviour
     private void OnDrawGizmos()
     {
         Gizmos.color = Color.green;
-        Gizmos.DrawLine(grafico.position + Vector3.up * 0.5f, grafico.position + Vector3.up * 0.5f + grafico.forward * distanciaVista);
-        
+        Gizmos.DrawLine(grafico.position + Vector3.up * 0.5f, grafico.position + Vector3.up * 0.5f + grafico.forward * distanciaVista);        
     }
 
     public void ActualizarPosicion()

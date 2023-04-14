@@ -18,7 +18,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &436642076614185455
 Transform:
   m_ObjectHideFlags: 0
@@ -27,7 +27,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 436642076614185454}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -7}
+  m_LocalPosition: {x: 0, y: 0, z: -15.7}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -125,9 +125,13 @@ MonoBehaviour:
   carril: 0
   lateral: 0
   posObjetivo: {x: 0, y: 0, z: 0}
-  velocidad: 18
+  velocidad: 12
   grafico: {fileID: 5076106034435934783}
-  posicionZ: 0
+  capaObstaculos:
+    serializedVersion: 2
+    m_Bits: 64
+  distanciaVista: 1.2
+  tiempo: 0.15
 --- !u!1 &2614624819850252786
 GameObject:
   m_ObjectHideFlags: 0
@@ -177,15 +181,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4000010185279200, guid: 3fc437f7843826b4cac9240e7f3e97d8, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.12
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 4000010185279200, guid: 3fc437f7843826b4cac9240e7f3e97d8, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.14
+      value: 0.12
       objectReference: {fileID: 0}
     - target: {fileID: 4000010185279200, guid: 3fc437f7843826b4cac9240e7f3e97d8, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.12
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 4000010185279200, guid: 3fc437f7843826b4cac9240e7f3e97d8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -226,6 +230,14 @@ PrefabInstance:
     - target: {fileID: 4000010185279200, guid: 3fc437f7843826b4cac9240e7f3e97d8, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000013534023938, guid: 3fc437f7843826b4cac9240e7f3e97d8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 4.41
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000013534023938, guid: 3fc437f7843826b4cac9240e7f3e97d8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -3.15
       objectReference: {fileID: 0}
     - target: {fileID: 95000011173926200, guid: 3fc437f7843826b4cac9240e7f3e97d8, type: 3}
       propertyPath: m_Controller

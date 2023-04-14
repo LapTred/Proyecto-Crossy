@@ -33,7 +33,7 @@ public class Mundo : MonoBehaviour
     {
         if ((limiteDeMundo - playerPos.z < minDistanceFromPlayer)|| (isStart))
         {
-            int whichTerrain = Random.Range(0, terrainDatas.Count);
+            int whichTerrain = Random.Range(0, 3);//terrainDatas.Count
             int terrainInSuccession = Random.Range(1, terrainDatas[whichTerrain].maxInSuccesion);
             int randomGrass;
 
@@ -43,26 +43,68 @@ public class Mundo : MonoBehaviour
                 {
                     if(lastIPar == false )
                     {
-                        randomGrass = Random.Range(3, 6);
+                        randomGrass = Random.Range(5, 10);
                         lastIPar= true;
                     }
                     else
                     {
-                        randomGrass = Random.Range(0, 3);
+                        randomGrass = Random.Range(0, 5);
                         lastIPar= false;
                     }
 
                     GameObject terrain = Instantiate(grassList[randomGrass], Vector3.forward * limiteDeMundo, Quaternion.identity, terrainHolder);
                     currentTerrains.Add(terrain);
-
-                    Debug.Log(randomGrass);
-                    
+                    limiteDeMundo++;
                 }
-                else
+                else if (whichTerrain == 1) 
                 {
-                    GameObject terrain = Instantiate(terrainDatas[whichTerrain].terrain, Vector3.forward * limiteDeMundo, Quaternion.identity, terrainHolder);
+                    GameObject terrain = Instantiate(terrainDatas[whichTerrain].terrain, Vector3.forward * limiteDeMundo, Quaternion.Euler(0, 90, 0), terrainHolder);
                     currentTerrains.Add(terrain);
-                }                               
+                    limiteDeMundo++;
+                }                
+                else if (whichTerrain == 0)
+                {
+                    if (i == 0)
+                    {
+                        if (lastIPar == false)
+                        {
+                            randomGrass = Random.Range(5, 10);
+                            lastIPar = true;
+                        }
+                        else
+                        {
+                            randomGrass = Random.Range(0, 5);
+                            lastIPar = false;
+                        }
+
+                        GameObject terrain = Instantiate(grassList[randomGrass], Vector3.forward * limiteDeMundo, Quaternion.identity, terrainHolder);
+                        currentTerrains.Add(terrain);
+                        limiteDeMundo++;
+                    }                    
+                    if (i<terrainInSuccession)
+                    {
+                        GameObject terrain = Instantiate(terrainDatas[whichTerrain].terrain, Vector3.forward * limiteDeMundo, Quaternion.identity, terrainHolder);
+                        currentTerrains.Add(terrain);
+                        limiteDeMundo++;
+                    }
+                    if (i == terrainInSuccession -1)
+                    {
+                        if (lastIPar == false)
+                        {
+                            randomGrass = Random.Range(5, 10);
+                            lastIPar = true;
+                        }
+                        else
+                        {
+                            randomGrass = Random.Range(0, 5);
+                            lastIPar = false;
+                        }
+
+                        GameObject terrain = Instantiate(grassList[randomGrass], Vector3.forward * limiteDeMundo, Quaternion.identity, terrainHolder);
+                        currentTerrains.Add(terrain);
+                        limiteDeMundo++;
+                    }
+                }                
 
                 if (!isStart)
                 {
@@ -73,7 +115,7 @@ public class Mundo : MonoBehaviour
                     }
                 }
 
-                limiteDeMundo++;
+                //limiteDeMundo++;
             }
         }
     }
