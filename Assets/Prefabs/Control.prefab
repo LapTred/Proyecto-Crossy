@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &698295513407313449
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 698295513407313451}
+  - component: {fileID: 698295513407313448}
+  m_Layer: 0
+  m_Name: Control
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &698295513407313451
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 698295513407313449}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &698295513407313448
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 698295513407313449}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c9b7cd71ed0a864795eb48f382ce0c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  worldLimit: 3
+  minDistanceFromPlayer: 20
+  maxTerrainCount: 13
+  terrainDatas:
+  - {fileID: 11400000, guid: abd7a51dc7611f54f946372e4e65a3bb, type: 2}
+  - {fileID: 11400000, guid: fb9575ac87965d94a99fe266e0473006, type: 2}
+  - {fileID: 11400000, guid: 5114d1f9666f98e40b64294a3f52d74d, type: 2}
+  grassList:
+  - {fileID: 5052222624501171564, guid: 6959692252910354691d96fc138b410b, type: 3}
+  - {fileID: 2910379234114949449, guid: 5a8e297687201ab4ca92a19fcaac5758, type: 3}
+  - {fileID: 6544392087452341272, guid: 4e1f5565e53eade42ac1e2ca3cf75000, type: 3}
+  - {fileID: 8363091316974992371, guid: 7c6200c4002ef2f4c919b931133cec00, type: 3}
+  - {fileID: 1804582227816262737, guid: 6c6aa6963dc730445adba8f23cfd3862, type: 3}
+  - {fileID: 8616962629950748901, guid: 7e619ce8166822346868a126f99d518c, type: 3}
+  - {fileID: 7186121743718792120, guid: 8e8c6f911d96cf84cbc37a6e73352c06, type: 3}
+  - {fileID: 4387201275504329572, guid: c04ebf0c0061f6c499ef1dfac5fd87f8, type: 3}
+  - {fileID: 8457247124461880265, guid: ce411a416c5ab034ea6af9c465b34f0d, type: 3}
+  - {fileID: 3541007316113490809, guid: 4eb4cc086b7ea0c4787af8c652696b7c, type: 3}
+  terrainHolder: {fileID: 7081731850568661202, guid: ba58950f21b52c94683f6a3665f8af5f, type: 3}
