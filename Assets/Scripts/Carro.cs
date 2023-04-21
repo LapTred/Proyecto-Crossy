@@ -10,6 +10,4 @@ public class Carro : MonoBehaviour
     {
         transform.Translate(0, 0, velocidad * Time.deltaTime);
     }
-
-
 }
