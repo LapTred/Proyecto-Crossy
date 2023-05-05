@@ -778,7 +778,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7988543347794204867}
   m_Enabled: 1
-  m_CastShadows: 0
+  m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -889,8 +889,7 @@ GameObject:
   - component: {fileID: 8915811467154328741}
   - component: {fileID: 8915811467155131527}
   - component: {fileID: 8915811467156229703}
-  - component: {fileID: 3695473356959676705}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Stump
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -905,8 +904,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8915811467153969285}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.14, y: 0.05, z: 0}
-  m_LocalScale: {x: 1.0619, y: 1.0619, z: 1.0619}
+  m_LocalPosition: {x: 0, y: 0.045, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8915811467154328751}
@@ -962,19 +961,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &3695473356959676705
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8915811467153969285}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.1454495, y: 0.23467222, z: 0.15293466}
-  m_Center: {x: 0, y: 0.074448176, z: 0}
 --- !u!1 &8915811467153969293
 GameObject:
   m_ObjectHideFlags: 0
@@ -986,8 +972,7 @@ GameObject:
   - component: {fileID: 8915811467154328749}
   - component: {fileID: 8915811467155131523}
   - component: {fileID: 8915811467156229699}
-  - component: {fileID: 7823708651510730683}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Tree
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1002,8 +987,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8915811467153969293}
   m_LocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: -0.069, y: 0.05, z: 0}
-  m_LocalScale: {x: 1, y: 0.929011, z: 1}
+  m_LocalPosition: {x: 0.075, y: 0.05, z: 0}
+  m_LocalScale: {x: 1, y: 0.7907822, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8915811467154328751}
@@ -1059,19 +1044,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &7823708651510730683
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8915811467153969293}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.3697646, y: 0.75115263, z: 0.36976457}
-  m_Center: {x: 0.000000003725289, y: 0.4482297, z: -0.000000014901161}
 --- !u!1 &8915811467153969295
 GameObject:
   m_ObjectHideFlags: 0
@@ -1081,7 +1053,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8915811467154328751}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Tree
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1112,10 +1084,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8060943570309456316}
     m_Modifications:
-    - target: {fileID: 4296554043335093652, guid: e67061355df8e544dbd8d0d68f517fae, type: 3}
-      propertyPath: m_CastShadows
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 4296554043337290580, guid: e67061355df8e544dbd8d0d68f517fae, type: 3}
       propertyPath: m_Name
       value: Flower_C (2)
@@ -1190,10 +1158,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8060943570309456316}
     m_Modifications:
-    - target: {fileID: 247557087067451989, guid: a074f40073a2385429f5f7c8bf29101d, type: 3}
-      propertyPath: m_CastShadows
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 247557087069711509, guid: a074f40073a2385429f5f7c8bf29101d, type: 3}
       propertyPath: m_Name
       value: Flower_B

@@ -19,7 +19,7 @@ public class CarGenerator : MonoBehaviour
         orientacion = Random.Range(0, 2);
         velocidad = Random.Range(4f, 9f);
             
-        Invoke("GeneradorCarro", Random.Range(0f,2f));
+        Invoke("GeneradorCarro", Random.Range(0f,1.5f));
     }
 
     public void GeneradorCarro()

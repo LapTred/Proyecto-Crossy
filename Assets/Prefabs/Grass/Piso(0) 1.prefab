@@ -11,8 +11,7 @@ GameObject:
   - component: {fileID: 304878540}
   - component: {fileID: 304878542}
   - component: {fileID: 304878541}
-  - component: {fileID: 4900889618714139981}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Tree
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -84,19 +83,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &4900889618714139981
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 304878539}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.3697645, y: 0.7511526, z: 0.36976457}
-  m_Center: {x: 0.000003822148, y: 0.44822964, z: -0.000000014901161}
 --- !u!1 &1006971871
 GameObject:
   m_ObjectHideFlags: 0
@@ -106,13 +92,13 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1006971872}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Tree (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1006971872
 Transform:
   m_ObjectHideFlags: 0
@@ -140,8 +126,7 @@ GameObject:
   - component: {fileID: 1321588192}
   - component: {fileID: 1321588194}
   - component: {fileID: 1321588193}
-  - component: {fileID: 3463470075506230491}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Tree
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -213,19 +198,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &3463470075506230491
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1321588191}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.3697645, y: 0.7511526, z: 0.36976457}
-  m_Center: {x: 0.0000019147992, y: 0.44822964, z: -0.000000014901161}
 --- !u!1 &1510253959
 GameObject:
   m_ObjectHideFlags: 0
@@ -235,7 +207,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1510253960}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Tree (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -362,7 +334,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3652723422712017529}
   m_Enabled: 1
-  m_CastShadows: 0
+  m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -892,10 +864,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3725088460578048774}
     m_Modifications:
-    - target: {fileID: 4296554043335093652, guid: e67061355df8e544dbd8d0d68f517fae, type: 3}
-      propertyPath: m_CastShadows
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 4296554043337290580, guid: e67061355df8e544dbd8d0d68f517fae, type: 3}
       propertyPath: m_Name
       value: Flower_C (3)
@@ -974,10 +942,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock_2
       objectReference: {fileID: 0}
-    - target: {fileID: 1978445070297066, guid: 4983f395b2610de4e9f688a87bbd9af9, type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
     - target: {fileID: 4646933745565138, guid: 4983f395b2610de4e9f688a87bbd9af9, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -1000,7 +964,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4646933745565138, guid: 4983f395b2610de4e9f688a87bbd9af9, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4646933745565138, guid: 4983f395b2610de4e9f688a87bbd9af9, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1034,14 +998,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 23842696366569710, guid: 4983f395b2610de4e9f688a87bbd9af9, type: 3}
-      propertyPath: m_CastShadows
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 64339558693332158, guid: 4983f395b2610de4e9f688a87bbd9af9, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4983f395b2610de4e9f688a87bbd9af9, type: 3}
 --- !u!4 &5524449572887327921 stripped
@@ -1049,21 +1005,3 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4646933745565138, guid: 4983f395b2610de4e9f688a87bbd9af9, type: 3}
   m_PrefabInstance: {fileID: 5528814786742258019}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &5529660183987121801 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1978445070297066, guid: 4983f395b2610de4e9f688a87bbd9af9, type: 3}
-  m_PrefabInstance: {fileID: 5528814786742258019}
-  m_PrefabAsset: {fileID: 0}
---- !u!65 &9050461233746608755
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5529660183987121801}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 4.163078, y: 4.29279, z: 3.5311713}
-  m_Center: {x: -0.11502115, y: 0.7729267, z: -0.15901673}

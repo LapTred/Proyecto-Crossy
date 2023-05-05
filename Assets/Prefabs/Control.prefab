@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &698295513407313449
+--- !u!1 &8602666102438974946
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,8 +8,8 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 698295513407313451}
-  - component: {fileID: 698295513407313448}
+  - component: {fileID: 8602666102438974944}
+  - component: {fileID: 8602666102438974947}
   m_Layer: 0
   m_Name: Control
   m_TagString: Untagged
@@ -17,13 +17,13 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &698295513407313451
+--- !u!4 &8602666102438974944
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 698295513407313449}
+  m_GameObject: {fileID: 8602666102438974946}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -32,13 +32,13 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &698295513407313448
+--- !u!114 &8602666102438974947
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 698295513407313449}
+  m_GameObject: {fileID: 8602666102438974946}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4c9b7cd71ed0a864795eb48f382ce0c4, type: 3}
@@ -46,7 +46,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   worldLimit: 3
   minDistanceFromPlayer: 20
-  maxTerrainCount: 13
+  maxTerrainCount: 10
   terrainDatas:
   - {fileID: 11400000, guid: abd7a51dc7611f54f946372e4e65a3bb, type: 2}
   - {fileID: 11400000, guid: fb9575ac87965d94a99fe266e0473006, type: 2}
@@ -62,4 +62,4 @@ MonoBehaviour:
   - {fileID: 4387201275504329572, guid: c04ebf0c0061f6c499ef1dfac5fd87f8, type: 3}
   - {fileID: 8457247124461880265, guid: ce411a416c5ab034ea6af9c465b34f0d, type: 3}
   - {fileID: 3541007316113490809, guid: 4eb4cc086b7ea0c4787af8c652696b7c, type: 3}
-  terrainHolder: {fileID: 7081731850568661202, guid: ba58950f21b52c94683f6a3665f8af5f, type: 3}
+  terrainHolder: {fileID: 0}

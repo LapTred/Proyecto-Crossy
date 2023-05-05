@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f43f41e60d24b1642ac9c812015860c9, type: 3}
   m_Name: Water
   m_EditorClassIdentifier: 
-  terrain: {fileID: 1777588042030908453, guid: 25c345d6f1211714d944768907c87a60, type: 3}
-  maxInSuccesion: 3
+  terrain: {fileID: 5277519463219884395, guid: 5546a1292cd029a419e8ec5470119061, type: 3}
+  maxInSuccesion: 4
