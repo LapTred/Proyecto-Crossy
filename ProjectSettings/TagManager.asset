@@ -6,11 +6,12 @@ TagManager:
   tags:
   - Car
   - CarDestroyer
+  - Tree
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Obstaculos
   - Water
   - UI
   - 

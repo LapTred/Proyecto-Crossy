@@ -234,7 +234,8 @@ public class Movimiento : MonoBehaviour
         if(other.CompareTag("Car"))
         {
             vivo = false;
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            SceneManager.LoadScene(0);
+            //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
     }
 }

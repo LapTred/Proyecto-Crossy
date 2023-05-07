@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Asset store/LowPoly Environment Pack/Demo/Demo 3.unity
+- path: Assets/Scenes/Juego.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

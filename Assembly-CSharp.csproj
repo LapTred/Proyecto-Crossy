@@ -63,6 +63,8 @@
     <Compile Include="Assets\Scripts\Camara.cs" />
     <Compile Include="Assets\Scripts\CarMaterial.cs" />
     <Compile Include="Assets\Asset store\TheTeam.Ninja\Voxel Farm\Scripts\Spin.cs" />
+    <Compile Include="Assets\Scripts\UIToggleController.cs" />
+    <Compile Include="Assets\Scripts\UIPlay.cs" />
     <Compile Include="Assets\Scripts\Scoring.cs" />
     <Compile Include="Assets\Scripts\FollowPlayer.cs" />
     <Compile Include="Assets\Scripts\Mundo.cs" />
@@ -74,8 +76,6 @@
     <Compile Include="Assets\Asset store\ExtrudeMeshAlongBezierTool\Scripts\PathObjectEditorData.cs" />
     <Compile Include="Assets\Scripts\CarDestroyer.cs" />
     <Compile Include="Assets\Scripts\CarGenerator.cs" />
-    <Compile Include="Assets\Scripts\UIToggleController.cs" />
-    <Compile Include="Assets\Scripts\UIPlay.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
